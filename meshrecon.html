@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zhuoliang's MeshRecon</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+    <div id="logo">
+    	<div id="logo_font">
+    		<h1>Zhuoliang Kang</h1>
+            <h2>Ph.D <S>student</S>, Computer Science, USC</h2>
+			<p>zhuoliangkang [at] gmail [dot] com</p>
+    	</div>
+    </div> 
+    <div id="menu">
+ 		<ul>
+			<li><a href="index.html">About me</a></li>
+			<li><a href="research.html">Research</a></li>
+            <li class="current_page_item"><a href="#">MeshRecon</a></li> 
+		</ul>   
+    </div>  
+    <div id="content">
+    <table width="800" border="0" cellspacing="0" cellpadding="0">    
+    	<tr>
+       	  <td>
+       		<h2>Mesh Reconstruction from Imagery</h2>
+            <p>This work originates from the dense reconstruction module for the city 3D reconstruction project. I have extended it for more general 3D model acquisitions. Now you can use it to scan your object with a smarthpone!</p>
+            <p><img src="6.jpg" width="800" height="182" /></p>
+            
+            <h3>System Requirement</h3>
+            <p>Current version is developed in Windows 7 64 bit platform using CUDA. An NVIDIA graphics card is needed.
+            
+            <h3>Downloads</h3>
+            <h4><a href="MeshRecon-20150429-Win7-64bit.zip">MeshRecon-20150429-Win7-64bit.zip</a> [4.8MB]</h4>
+
+            
+            <h3>Simple Usage</h3>
+            <p> Step 1. Put all images in the "img" folder. </p> 
+            <p> Step 2. Click "run.bat" to run. </p>
+            <p> Step 3. Your have your model in the "results" folder. </p>
+            
+            <p> This simple usage uses the camera pose generated from <a href="http://ccwu.me/vsfm/">VisualSFM</a> (binary file already enclosed in the package for your conivence) by <a href="http://ccwu.me/">Changchang Wu</a>. Thanks Changchang!</p>
+            
+            <h3>Dataset</h3>
+            <p>Here are several datasets and the produced models that you can play with. All captured using my smartphone!</p>
+            <h4>Gargoyle:&nbsp;&nbsp;&nbsp;<a href="gargoyle.zip">23 images</a> [8.9MB]&nbsp;&nbsp;&nbsp;<a href="gargoyle.ply"> model</a> [1.7MB]</h4>
+            <h4>Gnome:&nbsp;&nbsp;&nbsp;<a href="gnome.zip">27 images</a> [6.8MB]&nbsp;&nbsp;&nbsp;<a href="gnome.ply">model</a> [1.3MB]</h4>
+            <h4>Squirrel:&nbsp;&nbsp;&nbsp;<a href="squirrel.zip">23 images</a> [6.7MB]&nbsp;&nbsp;&nbsp;<a href="squirrel.ply">model</a> [1.3MB]</h4>
+            <h4>Woodland Squirrel:&nbsp;&nbsp;&nbsp;<a href="woodland squirrel.zip">20 images</a> [5.1MB]&nbsp;&nbsp;&nbsp;<a href="woodland squirrel.ply">model</a> [1.0MB]</h4>
+            
+            <h3>License & Disclaimer</h3>
+            <p>Use it at your own risk.</p>
+          </td>
+        </tr>          
+    </table>
+    </div> 
+  	<div id="footer">
+		<p>Copyright (c) Zhuoliang Kang. All rights reserved.</p>
+	</div>       
+</div>
+</body>
+</html>

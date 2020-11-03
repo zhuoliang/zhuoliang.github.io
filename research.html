@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zhuoliang's Research</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+    <div id="logo">
+    	<div id="logo_font">
+    		<h1>Zhuoliang Kang</h1>
+            <h2>Ph.D <S>student</S>, Computer Science, USC</h2>
+			<p>zhuoliangkang [at] gmail [dot] com</p>
+    	</div>
+    </div> 
+    <div id="menu">
+ 		<ul>
+			<li><a href="index.html">About me</a></li>
+			<li class="current_page_item"><a href="#">Research</a></li>
+            <li><a href="meshrecon.html">MeshRecon</a></li> 
+		</ul>   
+    </div>  
+    <div id="content">
+    <table width="800" border="0" cellspacing="0" cellpadding="0">    
+    	<tr>
+       	  <td>
+       		<h2>City-Scale 3D Reconstruction from Aerial Imagery</h2>
+       		<p><img src="1.jpg" width="800" height="194" /></p>
+            <p>We propose a system for 3D  reconstruction using multi-camera Wide Area Aerial Imagery (WAAI). Real-time  performance is achieved for camera pose estimation of multi-camera imagery with parallelization on multiple GPUs. Accurate output  3D model is iteratively refined using variational method with mean error smaller than 1 meter over an entire city.</p>
+            <p><img src="1.1.jpg" width="800" height="140" /></p>
+            <p>Based on the reconstructed city 3D models, we also present an approach for geometric change detection by performing comparisons at the 3D geometry level between 3D models generated at different times. Our approach is able to detect geometry changes at different scales, ranging from a building cluster to vegetation changes, over the entire city.</p>   
+            <p><a href="http://youtu.be/kdjiB3fh5CQ">[Video]</a></p>
+            <p><img src="2.jpg" width="800" height="171" /></p>
+            <p>We present a system for online  urban 3D reconstruction using Wide Area Aerial Surveillance (WAAS) video as  input. Camera poses as well as a 2.5D Digital Surface Model (DSM) is  incrementally updated as new frames arrive. Urban modeling is accomplished via  volumetric reconstruction.</p>
+            <p><strong>Zhuoliang Kang</strong>, Gerard Medioni. 3D Urban Reconstruction from Wide Area Aerial Surveillance Video. <i>Workshop on Applications for Aerial Video Exploitation (WAVE), 2015</i>. <a href="wave2015.pdf">[Paper]</a></p>
+            </td>
+        </tr>   
+    	<tr>
+       	  <td>
+   		    <h2>General 3D Model Acquisition with a Commodity Camera</h2>
+   		    <p><img src="3.jpg" width="800" height="168" /></p>
+            <p>We present a system for progressive 3D model acquisition with a commodity hand-held camera or webcam. The pipeline starts with a real-time scanning stage accomplished using a sparse point-based tracker for camera pose estimation and a dense patch-based tracker for dense reconstruction. After live scanning, our system refines the reconstructed patches into denser and more accurate patches through an offline model refinement procedure.</p>
+            <p><strong>Zhuoliang Kang</strong>, Gerard Medioni. Progressive 3D Model Acquisition with a Commodity Hand-held Camera. <i>Winter Conference on Applications of Computer Vision (WACV), 2015</i>. <a href="wacv2015.pdf">[Paper]</a>.
+            <p><strong>Zhuoliang Kang</strong>, Gerard Medioni. Fast Dense 3D Reconstruction using an Adaptive Multi-scale Discrete-Continuous Variational method. <i>Winter Conference on Applications of Computer Vision (WACV), 2014</i>. <a href="wacv2014.pdf">[Paper]</a>.
+   		    <p><img src="6.jpg" width="800" height="182" /></p>
+            <p>We also work on batch methods of  3D model acquisition from high-resolution discrete imagery set captured using standard digital camera. Variational methods are incorporated to iteratively refine the  3D model for structural details.</p>
+          <p><strong><a href="meshrecon.html">[MeshRecon]</a></strong>
+          </p></td>
+        </tr>
+    	<tr>
+        	<td>
+       		  <h2>Learning Task Groups in Multi-task Learning</h2>
+       		  <p><img src="5.JPG" width="573" height="200" /></p>
+       		  <p>In multi-task learning (MTL), multiple tasks are learnt jointly. We study the problem of multi-task learning of shared feature representations among tasks, while simultaneously determining &quot;with whom&quot; each task should share.</p>
+       		  <p><strong>Zhuoliang Kang</strong>, Kristen Grauman, and Fei Sha. Learning with Whom to Share in Multi-task Feature Learning. <i>International Conference on Machine Learning (ICML), 2011</i>. <a href="344_icmlpaper.pdf">[Paper]</a> <a href="GoupMTLCode.zip">[Code]</a> <a href="dataset_GMTL_ICML2011.zip">[Dataset]</a> <a href="icml_slides.pdf">[Slides]</a> <a href="icml_poster.pdf">[Poster]</a></p>
+            </td>
+        </tr>        
+    </table>
+    </div> 
+  	<div id="footer">
+		<p>Copyright (c) Zhuoliang Kang. All rights reserved.</p>
+	</div>       
+</div>
+</body>
+</html>
